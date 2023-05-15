@@ -36,6 +36,8 @@ pd.set_option("display.max_columns", None)
 # Importando o módulo warnings para evitar a exibição de mensagens de aviso
 import warnings
 
+import streamlit as st
+
 # Ignorando todos os tipos de mensagens de aviso
 warnings.filterwarnings("ignore")
 
